@@ -1,0 +1,83 @@
+#tool_bar{
+  padding: 1px;
+}
+
+#search_bar{
+  width:500px;
+  height:25px;
+  border-radius:20px;
+  border-width:1px;
+  padding:10px;
+}
+
+input[type="submit"] {
+  background:#f2f2f2;
+  border-width:0px;
+  width:130px;
+  height:30px;
+
+}
+
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
+}
+
+.adv_logo {
+  margin: 10px 10px;
+}
+.adv_logo h2 {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 30px;
+}
+
+.line {
+  border-bottom: solid 1px #d6d6d6;
+}
+
+
+.adv_cont {
+  margin: 50px 40px;
+}
+.adv_cont .space {
+  display: inline-block;
+  width: 50%;
+}
+.adv_cont label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+.adv_cont .form_cont {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.adv_cont .form_cont label {
+  width: 16%;
+  font-size: 14px;
+}
+.adv_cont .form_cont input[type=text] {
+  width: 49%;
+  padding: 2px 0;
+}
+.adv_cont .form_cont .description {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.adv_cont .form_cont .description .monospace {
+  font-family: monospace;
+}
+.adv_cont .form_cont .right-align {
+  width: 50%;
+}
