@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video</title>
+    <!-- Screen Sharing-->
+    <script type="text/javascript" src="https://flashphoner.com/downloads/builds/flashphoner_client/wcs_api-2.0/current/flashphoner.js"></script>
+   <script type="text/javascript" src="screen-sharing-min.js"></script>
+
+  </head>
+  <body onload="init_api()">
+    <h1>Video Dekhoge</h1>
+        <br>
+      <div style="float:left;padding:15px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xc5n49aEhwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div style="float:left;padding:15px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aphPRcV61S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <br>
+    <!-- FIREBASE DATABASE TRIAL-->
+    <iframe width="560" height="315" src="https://firebasestorage.googleapis.com/v0/b/trial-1c9e8.appspot.com/o/final_6071bc870818370044c051c4_117899.mp4?alt=media&token=5c72550f-a241-4418-a201-2ffb5e9e792b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <iframe src=" http://www.chatzy.com/frame/Hemang14" width="600" height="600"></iframe><br>
+    <iframe allowfullscreen="allowfullscreen" width="720" height="405" allow=”microphone; camera” src="https://aston769.clickmeeting.com/trial"></iframe>
+    <br><br>
+    <iframe allowfullscreen="allowfullscreen" width="720" height="405" allow=”microphone; camera” src="https://www.scener.com/astono9"></iframe>
+    <br><br>
+    <iframe allowfullscreen="allowfullscreen" width="720" height="405" allow=”microphone; camera” src="https://s.kast.live/g/fs2rsdixytk"></iframe>
+    <br><br>
+
+      <iframe
+        src="https://tokbox.com/embed/embed/ot-embed.js?embedId=f91c7841-f2d3-4d13-a265-5d069c10783b&room=DEFAULT_ROOM&iframe=true"
+        width="800px"
+        height="640px"
+        scrolling="auto"
+        allow="microphone; camera"
+      ></iframe>
+      <br><br>
+
+
+      <!-- CHAT BOX TRIAL-->
+
+
+      <SCRIPT type="text/javascript">
+var ChatzyBox = {
+	"Dimensions": 'height:420px;width:660px;',
+	"Style": 'background-color:#808080;padding:10px;',
+	"ShadeStyle": 'background-color:#333333;opacity:0.75;filter:alpha(opacity=75);',
+	"CloseImage": 'http://www.chatzy.com/elements/frame/close32.gif',
+	"CloseStyle": 'top:-12px;right:-11px;'  // Do not use comma at the end, gives error in IE8
+};
+function ChatzyObject (x) {
+	with (document) { if (getElementById) { return getElementById (x); } else if (all) { return all (x); } else if (layers) { return layers (x); } }
+}
+function ChatzyOpen (x) {
+	ChatzyObject ("ChatzyDiv").innerHTML = '<DIV style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:9;' + ChatzyBox.ShadeStyle + '"></DIV><TABLE cellSpacing="0" style="position:absolute;top:0;left:0;height:100%;width:100%;z-index:9;"><TR><TD style="vertical-align:middle;text-align:center;"><DIV id="ChatzyBox" style="position:relative;margin:0 auto;' + ChatzyBox.Dimensions + ChatzyBox.Style + '"><IFRAME src="' + x + '" scrolling="no" border="0" marginwidth="0" frameborder="0" style="background-color:#FFFFFF;' + ChatzyBox.Dimensions + '"></IFRAME><IMG src="' + ChatzyBox.CloseImage + '" onClick="window.ChatzyClose();" style="position:absolute;' + ChatzyBox.CloseStyle + 'cursor:pointer;"></DIV></TD></TR></TABLE>';
+	ChatzyObject ("ChatzyDiv").style.display = "";
+}
+function ChatzyClose () {
+	ChatzyObject ("ChatzyDiv").style.display = "none";
+	ChatzyObject ("ChatzyDiv").innerHTML = '<IFRAME></IFRAME>';
+}
+</SCRIPT>
+<DIV id="ChatzyDiv" style="display:none;"></DIV>
+<A href="http://www.chatzy.com/frame/Hemang14" onClick="ChatzyOpen(this.href);return false;">Click here to chat with me</A>
+    <h1>End</h1><br>
+
+
+
+    <!-- Screen Sharing API-->
+
+
+    <div id="screen-sharing" style="width:320px;height:240px;border: solid 1px"></div>
+    <input type="button" onclick="connect()" value="Share Screen"/>
+
+
+  </body>
+</html>
